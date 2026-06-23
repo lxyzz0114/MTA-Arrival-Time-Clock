@@ -13,10 +13,6 @@ Show arrival trains for stations you want.
 |OLED GND | GND |
 |OLED SDA | GPIO 22 |
 |OLED SCL | GPIO 21 |
-|Push Button 1 Data | GPIO 35 |
-|Push Button 1 GND | GND |
-|Push Button 2 Data | GPIO 34 |
-|Push Button 2 GND | GND |
 
 # REFERENCES
 - [boscacci/Arduino-Subway-Clock](https://github.com/boscacci/Arduino-Subway-Clock)
