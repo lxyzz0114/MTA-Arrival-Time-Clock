@@ -11,8 +11,8 @@ Show arrival trains for stations you want.
 |---|---|
 |OLED VCC | 5V |
 |OLED GND | GND |
-|OLED SDA | GPIO 22 |
-|OLED SCL | GPIO 21 |
+|OLED SDA | GPIO 21 |
+|OLED SCL | GPIO 22 |
 
 # REFERENCES
 - [boscacci/Arduino-Subway-Clock](https://github.com/boscacci/Arduino-Subway-Clock)
