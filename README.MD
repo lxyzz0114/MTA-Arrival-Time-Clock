@@ -1,18 +1,20 @@
 # MTA ARRIVAL TIME CLOCK
 Show arrival trains for stations you want.
 
-# COMPONENTS
+## COMPONENTS
 - ESP32 NODEMCU, or any ESP32 board
 - SSD1306 128x64 OLED LCD Display
 - Push Buttons x2
 
-# PIN CONNECTIONS
+## PIN CONNECTIONS
 | Device | ESP 32 NODEMCU|
 |---|---|
 |OLED VCC | 5V |
 |OLED GND | GND |
 |OLED SDA | GPIO 21 |
 |OLED SCL | GPIO 22 |
+|Previous Button | GPIO 27 |
+|Next Button | GPIO 26 |
 
 # REFERENCES
 - [boscacci/Arduino-Subway-Clock](https://github.com/boscacci/Arduino-Subway-Clock)
