@@ -3,7 +3,6 @@ Show arrival trains for stations you want.
 
 ## DEMO Python Script
 `mta_arrival_demo.py` is a small Python demo script that prints live NYC subway arrival times in the terminal.
-Expected output looks like:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -13,6 +12,26 @@ python mta_arrival_demo.py
 To keep it refreshing:
 ```bash
 python mta_arrival_demo.py --refresh 30
+```
+Expected output looks like:
+```
+Updated 11:38:59 AM EDT
+
+36 St Uptown
+  R - 3 min
+  N - 6 min
+
+36 St Downtown
+  R - 2 min
+  D - 7 min
+
+145 St Uptown
+  D - 5 min
+  D - 22 min
+
+145 St Downtown
+  D - 2 min
+  D - 20 min
 ```
 ### Configure Stations and Routes and number of Arrivals
 Change values of these variables in python script:
